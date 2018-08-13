@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Credit">
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="CreditTest">
+        <classes>
+            <class name="testcases.site.CreditTest">
+                <methods>
+                    <include name="chooseCreditWithMinCommission"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
